@@ -38,9 +38,9 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-6 text-white border-b border-[#FF8C00] w-12 pb-2">Menu</h4>
             <ul className="space-y-3">
               <li><a href="#home" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Início</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Soluções</a></li>
-              <li><a href="#apps" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Aplicativos</a></li>
-              <li><a href="#features" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span class="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Diferenciais</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Soluções</a></li>
+              <li><a href="#apps" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Aplicativos</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-[#FF8C00] transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 bg-[#FF8C00] rounded-full"></span>Diferenciais</a></li>
             </ul>
           </div>
 
