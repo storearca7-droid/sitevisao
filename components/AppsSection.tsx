@@ -18,7 +18,7 @@ export const AppsSection = () => {
                   playsInline
                   poster="fotoapp.png"
                 >
-                  <source src="video2.mp4" type="video/mp4" />
+                  <source src="appsvideo.mp4" type="video/mp4" />
                   Seu navegador não suporta a reprodução de vídeos.
                 </video>
               </div>

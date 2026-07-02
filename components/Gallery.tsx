@@ -17,14 +17,14 @@ export const Gallery = () => {
         <div className="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl bg-gray-900 group">
           {/* Aspect Ratio Maintainer */}
           <div className="aspect-[16/9]">
-            <video 
+            <iframe 
               className="w-full h-full object-cover"
-              controls
-              playsInline
-            >
-              <source src="video3.mp4" type="video/mp4" />
-              Seu navegador não suporta a reprodução de vídeos.
-            </video>
+              src="https://www.youtube.com/embed/JIA7IrKENko"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
