@@ -9,9 +9,13 @@ export const Footer = () => {
           
           {/* Brand */}
           <div className="space-y-6">
-            <span className="text-2xl font-bold tracking-tight block">
-              INVENTÁRIO <span className="text-[#FF8C00]">VISÃO</span>
-            </span>
+            <a href="#home" className="inline-block">
+              <img 
+                src="/logo.png" 
+                alt="Inventário Visão Logo" 
+                className="h-12 w-auto bg-white/90 p-1.5 rounded-lg"
+              />
+            </a>
             <p className="text-gray-400 text-sm leading-relaxed">
               Especialistas em gestão inteligente para o varejo alimentar. 
               Transformamos dados em decisões estratégicas, promovendo organização, 

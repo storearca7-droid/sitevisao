@@ -44,10 +44,12 @@ export const Hero = () => {
             <ArrowRight size={20} />
           </a>
           <a
-            href="#services"
-            className="w-full sm:w-auto px-8 py-4 bg-transparent border border-gray-600 text-gray-300 font-bold text-lg rounded-full hover:bg-white hover:text-gray-900 hover:border-white transition-all duration-300"
+            href="https://diagnosticovisao.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-8 py-4 bg-transparent border border-gray-600 text-gray-300 font-bold text-lg rounded-full hover:bg-white hover:text-gray-900 hover:border-white transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-xl"
           >
-            Conhecer Soluções
+            Fazer um diagnóstico gratuito
           </a>
         </div>
       </div>
