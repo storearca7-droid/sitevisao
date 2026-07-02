@@ -13,7 +13,7 @@ export const Footer = () => {
               <img 
                 src="/logo.png" 
                 alt="Inventário Visão Logo" 
-                className="h-12 w-auto bg-white/90 p-1.5 rounded-lg"
+                className="h-20 w-auto brightness-0 invert drop-shadow-[0_4px_12px_rgba(255,255,255,0.15)]"
               />
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">

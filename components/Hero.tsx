@@ -5,11 +5,21 @@ export const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900 pt-20">
       {/* Background Effect */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556740758-90de2929450a?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-900/90 to-gray-900"></div>
-        {/* Abstract Glow */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#FF8C00] rounded-full filter blur-[120px] opacity-20 animate-pulse"></div>
+      <div className="absolute inset-0 z-0 bg-gray-950">
+        {/* Camada 1: Supermercado/Estoque */}
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-luminosity"></div>
+        {/* Camada 2: Tecnologia/Dados (CRM/Fiscal) */}
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-color-dodge"></div>
+        {/* Camada 3: Abstrato/Tech Network */}
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center opacity-15 mix-blend-overlay"></div>
+        
+        {/* Gradientes para mesclagem premium */}
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-900/80 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-950 via-transparent to-gray-950"></div>
+        
+        {/* Abstract Glows */}
+        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#FF8C00] rounded-full filter blur-[150px] opacity-20 animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-600 rounded-full filter blur-[150px] opacity-10 animate-pulse" style={{ animationDelay: '2s' }}></div>
       </div>
 
       {/* Content */}

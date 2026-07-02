@@ -47,7 +47,7 @@ export const Navbar = () => {
               <img 
                 src="/logo.png" 
                 alt="Inventário Visão Logo" 
-                className={`h-12 w-auto transition-all ${!scrolled ? 'bg-white/90 p-1.5 rounded-lg backdrop-blur-sm' : ''}`}
+                className={`h-16 w-auto transition-all ${!scrolled ? 'brightness-0 invert drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]' : 'drop-shadow-md'}`}
               />
             </a>
           </div>
